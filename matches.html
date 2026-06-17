@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - CrickZone</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success py-3">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold fs-2" href="#">
+                CrickZone
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="matches.html">Matches</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="points-table.html">Points Table</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+
+                </ul>
+
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fas fa-search text-white"></i>
+                    <i class="fas fa-user-circle text-white fs-4"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- LIVE MATCHES -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <h2 class="section-title mb-4">
+                 Matches
+            </h2>
+
+            <div class="match-filters mb-4">
+
+                <button id="allBtn" class="filter-btn ">All</button>
+
+                <button id="liveBtn" class="filter-btn">Live</button>
+
+                <button id="upcomingBtn" class="filter-btn">Upcoming</button>
+
+                <button id="resultsBtn" class="filter-btn">Results</button>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="match-card">
+                        <h5>India vs England</h5>
+                        <p>India - 300/6 (50.0)</p>
+                        <p>England - 198/4 (37.2)</p>
+                        <p class="text-primary">
+                            England need 103 runs in 76 balls
+                        </p>
+                        <span class="badge bg-danger">LIVE</span>
+
+                        <a href="#" class="btn btn-success btn-sm mt-3">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="match-card">
+                        <h5>Pakistan vs Bangladesh</h5>
+                        <p>Pakistan - 178/8 (20.0)</p>
+                        <p>Bangladesh - 95/2(10.2)</p>
+                        <p class="text-primary">
+                            Bangladesh need 83 runs in 58 balls
+                        </p>
+                        <span class="badge bg-danger">LIVE</span>
+
+                        <a href="#" class="btn btn-success btn-sm mt-3">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- UPCOMING MATCHES -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <h2 class="section-title mb-4">
+                Upcoming Matches
+            </h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="upcoming-card">
+                        <h5>India vs Afghanistan</h5>
+                        <p>17 June • lucknow</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="upcoming-card">
+                        <h5>Bangladesh vs Australia</h5>
+                        <p>18 June • Dhaka</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="upcoming-card">
+                        <h5>West Indies vs Sri Lanka</h5>
+                        <p>20 June • Kingston</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RECENT RESULTS -->
+
+    <section class="py-5">
+        <div class="container">
+
+            <h2 class="section-title mb-4">
+                Match Prediction Poll
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-lg-6">
+                    <div class="upcoming-card text-center">
+
+                        <h4>India vs Afghanistan</h4>
+                        <p>Who Will Win?</p>
+
+                        <button class="btn btn-success me-2">
+                            India
+                        </button>
+
+                        <button class="btn btn-outline-success">
+                            Afghanistan
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="poll-card">
+
+                        <h4>Sri Lanka vs West Indies </h4>
+                        <p>Who Will Win?</p>
+
+                        <button class="btn btn-success me-2">
+                            Sri Lanka
+                        </button>
+
+                        <button class="btn btn-outline-success">
+                            West Indies
+                        </button>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <h3>CrickZone</h3>
+
+                    <p>
+                        Your one-stop destination for live cricket scores,
+                        match updates, rankings, news and cricket videos.
+                    </p>
+                </div>
+
+                <div class="col-lg-2">
+                    <h5>Quick Links</h5>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Matches</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Teams</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h5>Tournaments</h5>
+
+                    <ul>
+                        <li>IPL</li>
+                        <li>World Cup</li>
+                        <li>Asia Cup</li>
+                        <li>Champions Trophy</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h5>Follow Us</h5>
+
+                    <div class="social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+                © 2026 CrickZone. All Rights Reserved.
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        const buttons = document.querySelectorAll('.filter-btn');
+
+        buttons.forEach(button => {
+
+            button.addEventListener('click', () => {
+
+                buttons.forEach(btn => {
+                    btn.classList.remove('active-btn');
+                });
+
+                button.classList.add('active-btn');
+
+            });
+
+        });
+
+    </script>
+    <!-- FOOTER END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-script.js"></script>
+</body>
+
+</html>

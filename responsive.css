@@ -1,0 +1,135 @@
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 992px) {
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .navbar .d-flex {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .featured-story img {
+        height: 350px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .page-banner h1 {
+        font-size: 38px;
+    }
+
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    .page-banner {
+        padding: 50px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 30px;
+    }
+
+    .page-banner p {
+        font-size: 15px;
+    }
+
+    .featured-story img {
+        height: 250px;
+    }
+
+    .story-content {
+        padding: 20px;
+    }
+
+    .story-content h2 {
+        font-size: 22px;
+    }
+
+    .match-wrapper {
+        min-width: 280px;
+        max-width: 280px;
+    }
+
+    .quick-buttons {
+        flex-direction: column;
+    }
+
+    .quick-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+
+    .quick-access .btn,
+    .quick-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 576px) {
+
+    .page-banner h1 {
+        font-size: 26px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .team-row {
+        font-size: 14px;
+    }
+
+    .match-card {
+        padding: 15px;
+    }
+
+
+
+}
+
+@media(max-width:768px) {
+
+    .team-card {
+        margin-bottom: 20px;
+    }
+
+    .video-box {
+        margin-bottom: 20px;
+    }
+
+    .page-banner h1 {
+        font-size: 32px;
+    }
+
+}
